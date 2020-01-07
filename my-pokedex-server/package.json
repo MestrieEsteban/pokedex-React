@@ -1,0 +1,18 @@
+{
+  "name": "my-pokedex-server",
+  "version": "1.0.0",
+  "description": "my-pokedex-server",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx nodemon ./src/server.js"
+  },
+  "author": "Esteban",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.2"
+  }
+}

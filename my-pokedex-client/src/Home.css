@@ -1,0 +1,87 @@
+.Home {
+  background-color: rgb(85, 82, 82);
+  text-align: center;
+}
+
+.Home-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Home-logo {
+    animation: Home-logo-spin infinite 20s linear;
+  }
+}
+
+.pokemon-pcard {
+  -webkit-box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5em;
+  transition: transform .15s; }
+  .pokemon-pcard:hover {
+    transform: scale(1.1); }
+  .pokemon-pcard p {
+    color: #494949; }
+  .pokemon-pcard img {
+    max-width: 130px;
+  }
+
+  .Plante{
+    background-color: #DEFDE0;
+  }
+  .Feu{
+    background-color: #FDDFDF;
+  }
+  .Eau{
+    background-color: #DEF3FD;
+  }
+  .Insecte{
+    background-color: #f8d5a3;
+  }
+  .Vol{
+    background-color: #F5F5F5;
+  }
+  .Normal{
+    background-color: #F5F5F5;
+  }
+  .Poison{
+    background-color: #98d7a5;
+  }
+  .Électrique {
+    background-color: #FCF7DE;
+  }
+  .Sol {
+    background-color: #f4e7da;
+  }
+  .Combat {
+    background-color: #E6E0D4;
+  }
+  .Psy {
+    background-color: #cba1ed;
+  }
+  .Roche {
+    background-color: #d5d5d4;
+  }
+  .Spectre {
+    background-color: rgb(173, 101, 149);
+  }
+  .Glace {
+    background-color: #F5F5F5;
+  }
+  .Dragon {
+    background-color: #97b3e6;
+  }
+  .other{
+    background-color: #6f91cf;
+
+  }
+
+@keyframes Home-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
